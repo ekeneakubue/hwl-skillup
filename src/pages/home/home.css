@@ -43,6 +43,10 @@
     .main .left{
         margin: 1rem 1rem;
     }
+    .main{
+        margin: 3rem 0rem;
+    }
+
     .left-title{
         text-align: center;
         font-size: 25px;
