@@ -47,6 +47,10 @@
         padding: 2rem 4rem;
         justify-content: center;
     }
+    .foot-right{
+        text-align: center;
+        font-size: 12px;
+    }
     .foot-icon{
         margin: 1rem 1rem;
     }
@@ -56,6 +60,14 @@
     }
     #apply-btn:hover{
         text-align: center;
+        margin: 1rem 1rem;
+    }
+    .mybrand{
+        font-size: 14px;
+    }
+    .mylogo img{
+        width: 30px;
+        height: 30px;
         margin: 1rem 1rem;
     }
 }
