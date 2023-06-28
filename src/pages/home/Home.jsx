@@ -7,7 +7,7 @@ export default function Home() {
     <div className='container-fluid'>
         <div className="row main">
             <div className="col-md-9 left">
-                <div className="left-title">LEARN HTML5 & CSS3 IN FOUR WEEKS</div>
+                <div className="left-title">LEARN HTML & CSS IN FOUR WEEKS</div>
                 <div className="left-title2">
                     <h1 class="bi bi-plus-lg text-danger"></h1> ALL THE TECH TOOLS FOR STARTUP
                 </div>
@@ -16,7 +16,7 @@ export default function Home() {
                         This Program gives you the basic programming skills to kickoff your career in Tech.
                         No prior Programming experience is required. This program is designed to teach you all the basic.
                     </p><br/>
-                    <b>The only requirement is your passion, a laptop and internet.</b>
+                    <b>The requirements are your passion, a laptop and internet.</b>
                 </div>
                 <Link to="/application">
                     <div className='left-button'><div className="btn btn-dark btn-block">Get Started</div></div>
