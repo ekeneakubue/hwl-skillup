@@ -6,9 +6,12 @@ body{
 .myapp{
     margin: 4rem 5rem;
     border-radius: 20px;
-    padding: 2rem 4rem;
+    padding: 4rem 4rem;
     background-color: rgb(0, 0, 0, .8);
     color: white;
+}
+a div{
+    font-size: 40px;
 }
 .form_setup{
     border-radius: 20px;
@@ -45,6 +48,9 @@ body{
         padding: 2rem 1rem;
         background-color: rgb(0, 0, 0, .7);
         color: white;
+    }
+    a div{
+        font-size: 14px;
     }
 }
 

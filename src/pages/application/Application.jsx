@@ -38,12 +38,12 @@ export default function Application() {
                 <div className="row mt-4">                        
                     <div className="col-lg-12 form-item">
                         <h1><i class="bi bi-telegram text-info"></i></h1>
-                        <a href="https://t.me/+uBK7MXiFZvxlZTk8"><h1 className="text-info">https://t.me/+uBK7MXiFZvxlZTk8</h1></a>
+                        <a href="https://t.me/+uBK7MXiFZvxlZTk8"><div className="text-info">https://t.me/+uBK7MXiFZvxlZTk8</div></a>
                         <br/><br/>
                     </div>
                     <div className="col-lg-12 form-item">
                         <h1><i class="bi bi-discord text-warning"></i></h1>
-                        <a href="https://discord.gg/csJ974VU"><h1 className="text-warning">https://discord.gg/csJ974VU</h1></a>
+                        <a href="https://discord.gg/csJ974VU"><div className="text-warning">https://discord.gg/csJ974VU</div></a>
                     </div>                                
                 </div>
             </form>
