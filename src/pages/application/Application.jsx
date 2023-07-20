@@ -1,63 +1,50 @@
 import React, { useRef }  from 'react'
 import './application.css'
 import { BsTelephoneFill, BsHouseFill, BsEnvelopeFill, BsWhatsapp, BsFacebook, BsInstagram, BsTwitter} from "react-icons/bs";
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 
 export default function Application() {
     //EmailJS Config
-    const form = useRef()
-    const sendEmail = (e) => {
-        e.preventDefault();
+    // const form = useRef()
+    // const sendEmail = (e) => {
+    //     e.preventDefault();
 
-        emailjs.sendForm(
-            'service_btzv1hw', 
-            'template_mzxhqqj', 
-            form.current, 
-            'CbvCANNmhODLvBPoS'
-        )
-        .then((result) => {
-            console.log(result.text);
-            console.log("message sent")            
-            document.getElementById("alert").innerHTML = ('Success! Please check your email to complete your Registration')
-            }, 
-            (error) => {
-                console.log(error.text);
-                document.getElementById("alert").innerHTML = ('Error, Check your network and try again')
-            }
-        );
-    };
+    //     emailjs.sendForm(
+    //         'service_btzv1hw', 
+    //         'template_mzxhqqj', 
+    //         form.current, 
+    //         'CbvCANNmhODLvBPoS'
+    //     )
+    //     .then((result) => {
+    //         console.log(result.text);
+    //         console.log("message sent")            
+    //         document.getElementById("alert").innerHTML = ('Success! Please check your email to complete your Registration')
+    //         }, 
+    //         (error) => {
+    //             console.log(error.text);
+    //             document.getElementById("alert").innerHTML = ('Error, Check your network and try again')
+    //         }
+    //     );
+    // };
     
   return (
     <div className="container justify-content-center">  
         <div className="myapp">
           
-            <form className='form-group text-center' id="contactForm" ref={form} onSubmit={sendEmail}>
+            <form className='form-group text-center' id="contactForm">
                 <br/><br/>    
-                <h5>Start Your Application</h5>                     
+                <h5>JOIN US THROUGH THESE LINKS</h5>                     
                 <div id='alert' className='message'></div>
                 <div className="row mt-4">                        
                     <div className="col-lg-12 form-item">
-                        <div className="form-group">
-                            <input name="user_name" id="name" type="text" className="form-int form_setup" placeholder="Your Name*" required/>
-                        </div>
+                        <h1><i class="bi bi-telegram text-info"></i></h1>
+                        <a href="https://t.me/+uBK7MXiFZvxlZTk8"><h1 className="text-info">https://t.me/+uBK7MXiFZvxlZTk8</h1></a>
+                        <br/><br/>
                     </div>
                     <div className="col-lg-12 form-item">
-                        <div className="form-group">
-                            <input name="user_email" id="email" type="email" className="form-int form_setup" placeholder="Your Email*" required/>
-                        </div>
-                    </div>  
-                    <div className="col-lg-12 form-item">
-                        <div className="form-group">
-                            <input name="user_phone" id="phone" type="phone" className="form-int form_setup" placeholder="Your Whatsapp No*" required/>
-                        </div>
-                    </div>                                      
-
-                    <div className="col-12 btn-form-item">
-                        <button className='form-int-button send-btn bg-primary text-light' type="submit" id="send" >            
-                            <h6><i className="bi bi-send-fill text-danger"></i> Apply</h6>
-                        </button>                                                                            
-                    </div>  
-                                
+                        <h1><i class="bi bi-discord text-warning"></i></h1>
+                        <a href="https://discord.gg/csJ974VU"><h1 className="text-warning">https://discord.gg/csJ974VU</h1></a>
+                    </div>                                
                 </div>
             </form>
             
