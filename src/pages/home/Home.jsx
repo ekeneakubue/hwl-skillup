@@ -7,9 +7,9 @@ export default function Home() {
     <div className='container-fluid'>
         <div className="row main">
             <div className="col-md-9 left">
-                <div className="left-title">LEARN HTML & CSS IN FOUR WEEKS</div>
+                <div className="left-title">LEARN WEB DESIGN WITH HTML & CSS IN FIVE WEEKS</div>
                 <div className="left-title2">
-                    <h1 class="bi bi-plus-lg text-danger"></h1> ALL THE TECH TOOLS FOR STARTUP
+                    <h1 class=" text-danger">Plus</h1> ALL THE TECH TOOLS FOR STARTUP
                 </div>
                 <div className="left-body">
                     <p>
@@ -42,10 +42,10 @@ export default function Home() {
                     <h5 class="card-header text-center">Tutorial Features</h5>
                     <div class="card-body">
                         <div className="right">
-                            <h6><i class="bi bi-geo-alt-fill text-primary"></i>&nbsp; Location: &nbsp;&nbsp;Online</h6>
-                            <h6><i class="bi bi-calendar-event text-primary"></i>&nbsp; Duration: &nbsp;&nbsp;Four Weeks</h6>
-                            <h6><i class="bi bi-alarm text-primary"></i>&nbsp; Start Date: &nbsp;&nbsp;1st July, 2023</h6>
-                            <h6><i class="bi bi-cash text-primary"></i>&nbsp; Fee: &nbsp;&nbsp;<s>N</s>10,000.00</h6>
+                            <h6><i class="bi bi-geo-alt-fill text-primary"></i>&nbsp; Location: &nbsp;&nbsp;UNEC ICT HUB</h6>
+                            <h6><i class="bi bi-calendar-event text-primary"></i>&nbsp; Duration: &nbsp;&nbsp;Five Weeks</h6>
+                            <h6><i class="bi bi-alarm text-primary"></i>&nbsp; Start Date: &nbsp;&nbsp;15th Sep, 2023</h6>
+                            <h6><i class="bi bi-cash text-primary"></i>&nbsp; Fee: &nbsp;&nbsp;<s>N</s>40,000.00</h6>
                         </div>
                     </div>
                 </div>

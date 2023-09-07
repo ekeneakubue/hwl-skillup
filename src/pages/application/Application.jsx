@@ -33,18 +33,13 @@ export default function Application() {
           
             <form className='form-group text-center' id="contactForm">
                 <br/><br/>    
-                <h5>JOIN US THROUGH THESE LINKS</h5>                     
+                <h5>JOIN US THROUGH Whatsapp</h5>                     
                 <div id='alert' className='message'></div>
                 <div className="row mt-4">                        
                     <div className="col-lg-12 form-item">
-                        <h1><i class="bi bi-telegram text-info"></i></h1>
-                        <a href="https://t.me/+uBK7MXiFZvxlZTk8"><div className="text-info">https://t.me/+uBK7MXiFZvxlZTk8</div></a>
+                        <h1 className="foot-icon"><a href="https://wa.me/+23409023488168" target="_blank" rel="noopener npreferrer"><i class="bi bi-whatsapp text-success"></i> Whatsapp</a></h1>
                         <br/><br/>
-                    </div>
-                    <div className="col-lg-12 form-item">
-                        <h1><i class="bi bi-discord text-warning"></i></h1>
-                        <a href="https://discord.gg/csJ974VU"><div className="text-warning">https://discord.gg/csJ974VU</div></a>
-                    </div>                                
+                    </div>                                                   
                 </div>
             </form>
             

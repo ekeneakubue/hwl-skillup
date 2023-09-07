@@ -7,8 +7,8 @@ export default function Navbar() {
     <div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <Link to="/" class="navbar-brand" id="branded">
-                <div className="mylogo"><img src='gigo-logo.png' alt='logo' /></div>
-                <div className="mybrand">GigoSchool Africa</div>
+                <div className="mylogo"><i class="bi bi-bank2"></i> </div>
+                <div><h5 className="mybrand">HWL Knowledge Bank</h5></div>
             </Link>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
